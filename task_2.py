@@ -1,4 +1,4 @@
-# Напишите программу, которая найдёт произведение пар чисел списка. Парой считаем первый и последний 
+# Напишите программу, которая найдёт произведение пар чисел списка. Парой считаем первый и последний
 # элемент, второй и предпоследний и т.д.
 # Пример:
 # [2, 3, 4, 5, 6] => [12, 15, 16];
@@ -7,11 +7,13 @@
 import random
 import math
 
+
 def CreateRndList(countElements, maxElement):
     listElements = []
     for i in range(countElements):
-        listElements.append(random.randint(0,maxElement))
+        listElements.append(random.randint(0, maxElement))
     return listElements
+
 
 randomList = CreateRndList(6, 10)
 resultList = []
